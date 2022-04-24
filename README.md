@@ -15,44 +15,44 @@ We will evaluate the performance of these models and make a recommendation on wh
 
 ### RandomOverSampler model
 <p align="center">
-  <img src=""><img src=""><img src="">
+  <img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/ros1.png"><br><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/ros2.png"><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/ros3.png">
 </p>
-The balanced accuracy score is 65%.<br>The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.<br>Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 68%.
+The balanced accuracy score is 65%.<br>The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.<br>Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 67%.
 <br><br>
 
 ### SMOTE model
 <p align="center">
-  <img src=""><br><img src=""><img src="">
+  <img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/smote1.png"><br><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/smote2.png"><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/smote3.png">
 </p>
-The results are pretty similar to the previous model.<br>The balanced accuracy score is 64%.<br>The high_risk precision is about 1% only with 63% sensitivity which makes a F1 of 2% only.<br>Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 66%.
+The results are pretty similar to the previous model.<br>The balanced accuracy score is 62%.<br>The high_risk precision is about 1% only with 62% sensitivity which makes a F1 of 2% only.<br>Due to the high number of the low_risk population, its precision is almost 100% with a sensitivity of 63%.
 <br><br>
 
 ### ClusterCentroids model
 <p align="center">
-  <img src=""><br><img src=""><img src="">
+  <img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/uds1.png"><br><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/uds2.png"><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/uds3.png">
 </p>
-Here the balanced accuracy score is down to about 52%.<br>The high_risk precision is still 1% only with 63% sensitivity which makes a F1 of 1%.<br>Due to the high number of false positives, the low_risk sensitivity is only 40%.
+Here the balanced accuracy score is down to about 52%.<br>The high_risk precision is still 1% only with 57% sensitivity which makes a F1 of 1%.<br>Due to the high number of false positives, the low_risk sensitivity is only 47%.
 <br><br>
 
 ### SMOTEENN model
 <p align="center">
-  <img src=""><br><img src=""><img src="">
+  <img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/comb1.png"><br><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/comb2.png"><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/comb3.png">
 </p>
-The balanced accuracy score is about 62%.<br>The high_risk precision is still 1% only with 68% sensitivity which makes a F1 of only 2%.<br>Due to the high number of false positives, the low_risk sensitivity is 57%.
+The balanced accuracy score is about 62%.<br>The high_risk precision is still 1% only with 71% sensitivity which makes a F1 of only 2%.<br>Due to the high number of false positives, the low_risk sensitivity is 54%.
 <br><br>
 
 ### BalancedRandomForestClassifier model
 <p align="center">
-  <img src=""><img src=""><img src="">
+  <img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/brfc1.png"><br><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/brfc2.png"><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/brfc3.png">
 </p>
 The balanced accuracy score improved to about 79%.<br>The high_risk precision is still low at 4% only with 67% sensitivity which makes a F1 of only 7%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
 <br><br>
 
 ### EasyEnsembleClassifier model
 <p align="center">
-  <img src=""><br><img src=""><img src="">
+  <img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/eeabc1.png"><br><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/eeabc2.png"><img src="https://github.com/aem-saidur-rahman/Credit_Risk_Analysis/blob/main/Resources/eeabc3.png">
 </p>
-Now, the balanced accuracy score is high to about 93%.<br>The high_risk precision is still low at 7% only with 91% sensitivity which makes a F1 of only 14%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 94% with 100% presicion.
+Now, the balanced accuracy score is high to about 92%.<br>The high_risk precision is low at 4% only with 67% sensitivity which makes a F1 of only 7%.<br>Due to a lower number of false positives, the low_risk sensitivity is now 91% with 100% presicion.
 <br><br>
 
 ## Summary
